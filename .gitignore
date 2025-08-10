@@ -1,0 +1,69 @@
+# Dependencies downloaded by download_deps.py
+chromedriver-linux64-121-0-6167-85
+chrome-linux64-121-0-6167-85
+cl100k_base.tiktoken
+libssl1.1_1.1.1f-1ubuntu2_amd64.deb
+libssl1.1_1.1.1f-1ubuntu2_arm64.deb
+tika-server-standard-3.0.0.jar
+tika-server-standard-3.0.0.jar.md5
+nltk_data/
+huggingface.co/
+
+# Logs
+logs/
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+
+# Configuration files with secrets
+service_conf.yaml
+*.env
+.env.*
